@@ -1,0 +1,12 @@
+### Algorithm ####
+1.Proability of winning in each floor .
+2.payout for reaching each floor (will be using multiplier with maintaing rtp).
+3.ensuring RTP is 98%.Incase of low and high RTP , will be adjusting payout accordingly .
+
+STEP 1:Define the Difficult .
+STEP 2:calculate the Proability of selecting gem on any floor with the number of gems,box and bomb.
+STEP 3:Assign payouts for each floor .
+STEP 4:Calculate cumulative  Proability for selecting gem.
+STEP 5:Calculate Total payouts (p(win) * payout) for each floor .
+STEP 6:Calculate RTP for each floor .(total payouts / spent) *  100;
+STEP 7:Adjust payouts if RTP is greater is less or more than 98% for each floor to achieve 98% RTP .
